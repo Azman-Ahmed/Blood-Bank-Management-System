@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Donation Medical Receipt</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .receipt-details {
+      margin-bottom: 30px;
+    }
+
+    .receipt-details label {
+      font-weight: bold;
+    }
+
+    .receipt-details p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blood Donation Medical Receipt</h1>
+    <div class="receipt-details">
+      Full Name: <p>{{name}}</p> <br>
+      Age: <p>{{age}}</p> <br>
+      Gender: <p>{{gender}}</p> <br>
+      Blood Type: <p>{{blood_type}}</p> <br>
+      Weight: <p>{{weight}}</p> <br>
+      Last Dontation Date: <p>{{last_donation_date}}</p> <br>
+    </div>
+
+    <p>Print This Receipt and take it to your nearest Blood Bank to Donate Blood</p><br>
+    <p>Thanks for your contribution!!</p>
+  </div>
+</body>
+</html>

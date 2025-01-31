@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Bank Management System - Home</title>
+  <style>
+    body {
+      background-image: url(F:\Blood Bank Management System\static\001.jpg);
+      background-color: #FF6666;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #FFFFFF;
+    }
+
+    p {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #FFFFFF;
+    }
+
+    .radio-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #FFFFFF;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    label:hover {
+      background-color: #FF9999;
+    }
+
+    input[type="radio"]:checked + label {
+      background-color: #FF9999;
+      color: #FFFFFF;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Blood Bank Management System</h1>
+    <p>Welcome to the Blood Bank Management System. This system helps in managing blood donations, inventory, and distribution.</p>
+    <form action="/" method="POST">
+        <input type="submit" value="continue">
+    </form>
+  </div>
+
+</body>
+
+</html>
